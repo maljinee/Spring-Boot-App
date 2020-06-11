@@ -19,9 +19,7 @@ public class CourseService {
                 new Topic("javascript","javascript","javascript Description")
     )); */
 
-    /*public List<Topic> getAllTopics(){
-        return topics;
-    } */
+
     public List<Course> getAllCourses(String topicId){
         List<Course> courses = new ArrayList<>();
         courseRepository.findByTopicId(topicId).forEach(courses::add);

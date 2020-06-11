@@ -14,11 +14,6 @@ public class TopicService {
     @Autowired
     private TopicRepository topicRepository;
 
-
-
-    /*public List<Topic> getAllTopics(){
-        return topics;
-    } */
     public List<Topic> getAllTopics(){
         //return topics
         List<Topic> topics = new ArrayList<>();
